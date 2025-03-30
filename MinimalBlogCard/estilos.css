@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+*{
+    box-sizing: border-box;
+    
+}
+.contenedor{
+    width: 50%;
+    margin: auto;
+    border: 2px solid white;
+    box-shadow: -1px 11px 40px #E5EAF0;
+    border-radius: 20px;
+    
+
+
+}
+img{
+    padding: 0px 10px;
+    padding-top: 10px;
+    border-radius: 25px;
+    margin-top: 16px;
+}
+.sombreado{
+    color: #883AE1;
+    background-color: #E6D6FC;
+    width: 33%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 12px;
+    font-size: 10px;
+    font-family: 'Sora',sans-serif;
+}
+h1{
+    font-size: 18px;
+    font-family: 'Sora',sans-serif;
+    margin-left: 12px;
+}
+.contenido{
+    font-family: 'Sora',sans-serif;
+    margin-left:12px;
+    width: 90%;
+}
+.autor{
+    font-family: 'Sora',sans-serif;
+    margin-left: 12px;
+}
+hr{
+    color: #E5EAF0;
+    
+    opacity: 0.2;
+}
+
+@media screen and (min-width:252px) and (max-width:575px) {
+    .contenedor{
+        width: 90%;
+        margin-top: 20%;
+    }
+    .sombreado{
+        width: 21%;
+    }
+}
+@media screen and (max-width:252px){
+    .contenedor{
+        width: 100%;
+        margin-top: 20%;
+    }
+    .sombreado{
+        width: 35%;
+    }
+}
+@media screen and (min-width:576px) and (max-width:2575px) {
+    .contenedor{
+        width: 30%;
+        margin-top: 10%;
+    }
+    .sombreado{
+        width: 15%;
+    }
+}
